@@ -1,0 +1,6 @@
+.forhomeone{
+    width: 100%;
+    min-height: 100vh;
+    /* position: absolute; */
+    background: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(179, 205, 179),rgb(255, 255, 255)) ;
+}
