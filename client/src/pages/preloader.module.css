@@ -1,0 +1,28 @@
+.loadingGif {
+    max-width: 500px;
+  }
+  
+  .preLoader {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: #191f26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeOut {
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }

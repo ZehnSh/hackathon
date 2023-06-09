@@ -1,0 +1,66 @@
+.forhomeone{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(179, 205, 179),rgb(255, 255, 255)) ;
+}
+
+.flexdone{
+    display: flex;
+    width:50%;
+    min-height: 75vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to top right,#bbd2c5,#536976,#292e49 );
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 10em;
+    border: 1.5px ridge none rgb(57, 70, 64) ;      
+}
+
+.oneimg{
+    width: 8.5rem;
+    height: 8.5rem;
+    margin-top: 1.8rem;
+    margin-right: 5rem;
+    position: relative;
+    animation-name: swipe;
+    animation-duration: 4s ;
+    animation-iteration-count:infinite;
+    z-index: 1;
+    
+}
+.twoimg{
+    width: 14rem;
+    height: 14rem;
+    margin-top: 1.8rem;
+    /* margin-right: 8rem; */
+    position: relative;
+    z-index:0;
+}
+.threeimg{
+    width: 8.5rem;
+    height: 8.5rem;
+    margin-top: 1.8rem;
+    margin-right:5rem;
+    position:relative; 
+    right : 6rem;
+    animation-name: swipe2;
+    animation-delay: 0.7s;
+    animation-duration: 4s ;
+    animation-iteration-count:infinite;
+    opacity: 0;
+
+}
+
+@keyframes swipe {
+    0%   {opacity:1; left:0rem; top:0rem;}
+    25%  {opacity:0; left:13rem; top:0rem;}
+}
+
+@keyframes swipe2 {
+    0%   { left:0rem; top:0rem;opacity:0;}
+    25%  { left :5rem; top:0rem;opacity:1} 
+}
+
+
+

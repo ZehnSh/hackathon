@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+.forhomethree{
+    width: 100%;
+    min-height: 100vh;
+    /* position: absolute; */
+    background: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(179, 205, 179),rgb(255, 255, 255)) ; ;
+}
+
+.head1{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3em;
+    border: 1px solid none ;
+    border-radius: 10px  ;
+    padding: 5px;
+    background: linear-gradient(#34e89e,#0f3443) ;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.head1:hover,
+.head1:focus {
+    box-shadow: 
+        inset -3.5em 0 0 0 var(--hover),
+        inset 3.5em 0 0 0 var(--hover);  
+}
+
+.stem{
+    width: 100%;
+    height: 260vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.stem2{
+    width:5px;
+    height: 260vh;
+    background: linear-gradient(#200122,#6f0000);
+    border: 1px solid none;
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    
+}
+
+.leaf1{
+    border: 2px solid none;
+    background: linear-gradient(#a8e063,#56ab2f);
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    transform: translate(42.5em);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: transform 0.3s ease;
+}
+
+.leaf1:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.leaf2{
+    border: 0px solid ;
+    background: linear-gradient(#2c7744,#5a3f37);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transform: translate(12em);
+    transition: transform 0.3s ease;
+}
+
+.leaf2:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.leaf3{
+    border: 0px solid ;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: linear-gradient(#a8e063,#56ab2f);
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    transform: translate(42.5em);
+    transition: transform 0.3s ease;
+}
+
+.leaf3:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.leaf4{
+    border: 0px solid ;
+    background: linear-gradient(#2c7744,#5a3f37);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    transform: scaleX(-1);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: translate(12em);
+    transition: transform 0.3s ease;
+}
+
+.leaf4:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.leaf5{
+    border: 0px solid ;
+    background: linear-gradient(#a8e063,#56ab2f);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    transform: translate(42.5em);
+    transition: transform 0.3s ease;
+}
+
+.leaf5:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.h1{
+    width: 150px;
+    text-align: center;
+    transform: translate(9.6em);
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+}
+
+.para1{
+    font-size:21px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 30, 30);
+    transform: translate(4.5em);
+    margin-top: 2em;
+}
+
+.h2{
+    width: 220px;
+    text-align: center;
+    transform: translate(8.9em);
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+}
+
+.para2{
+    font-size:21px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    transform: translate(4.5em);
+    margin-top: 2em;
+}
+
+
+.h3{
+    width: 200px;
+    text-align: center;
+    transform: translate(9.6em);
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+}
+
+.para3{
+    font-size:21px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 30, 30);
+    transform: translate(4.5em);
+    margin-top: 2em;
+}
+
+.h4{
+    width: 200px;
+    text-align: center;
+    transform: translate(10em);
+    font-size: 26px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+}
+
+.para4{
+    font-size:19px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    transform: translate(4.5em);
+    margin-top: 1em;
+}
+
+.h5{
+    width: 200px;
+    text-align: center;
+    transform: translate(9.6em);
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+}
+
+.para5{
+    font-size:21px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 30, 30);
+    transform: translate(4.5em);
+    margin-top: 1em;
+}
+
+
+
+
